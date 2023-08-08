@@ -1,1 +1,19 @@
 * text=auto !eol
+/.classpath -text
+/.project -text
+.settings/org.eclipse.jdt.core.prefs -text
+.settings/org.eclipse.m2e.core.prefs -text
+.settings/org.maven.ide.eclipse.prefs -text
+/pom.xml -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/Calendr.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/EventEnd.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/EventIterator.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/EventLink.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/EventProperty.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/EventStart.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/EventTitle.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/Evnt.java -text
+src/main/java/org/cd2h/GoogleCalendarTagLib/util/Test.java -text
+src/main/resources/META-INF/taglib.tld -text
+src/non-packaged-resources/Model.clay -text
+tokens/StoredCredential -text

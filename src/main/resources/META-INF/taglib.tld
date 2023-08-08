@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<tlib-version>2.1</tlib-version>
+	<short-name>google-calendar</short-name>
+	<uri>http://cd2h.org/google-calendar</uri>
+
+	<tag>
+		<name>calendar</name>
+		<tag-class>org.cd2h.GoogleCalendarTagLib.Calendr</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>eventIterator</name>
+		<tag-class>org.cd2h.GoogleCalendarTagLib.EventIterator</tag-class>
+		<body-content>JSP</body-content>
+
+		<attribute>
+			<name>count</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>event</name>
+		<tag-class>org.cd2h.GoogleCalendarTagLib.Evnt</tag-class>
+		<body-content>JSP</body-content>
+	</tag>
+	
+    <tag>
+        <name>eventTitle</name>
+        <tag-class>org.cd2h.GoogleCalendarTagLib.EventTitle</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+	
+    <tag>
+        <name>eventLink</name>
+        <tag-class>org.cd2h.GoogleCalendarTagLib.EventLink</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+	
+    <tag>
+        <name>eventStart</name>
+        <tag-class>org.cd2h.GoogleCalendarTagLib.EventStart</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+	
+    <tag>
+        <name>eventEnd</name>
+        <tag-class>org.cd2h.GoogleCalendarTagLib.EventEnd</tag-class>
+        <body-content>JSP</body-content>
+    </tag>
+	
+    <tag>
+        <name>eventProperty</name>
+        <tag-class>org.cd2h.GoogleCalendarTagLib.EventProperty</tag-class>
+        <body-content>JSP</body-content>
+
+		<attribute>
+			<name>property</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+    </tag>
+	
+</taglib>
+	
