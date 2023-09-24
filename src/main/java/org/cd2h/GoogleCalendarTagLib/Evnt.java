@@ -47,11 +47,11 @@ public class Evnt extends BodyTagSupport {
 		eventStartTime = startString[2] + " " + startString[3];
 		eventEndTime = endString;
 		eventTimeZone = startString[4];
-		System.out.println("start month: " + eventMonth);
-		System.out.println("start day: " + eventDay);
-		System.out.println("start time: " + eventStartTime);
-		System.out.println("end time: " + eventEndTime);
-		System.out.println("timezone: " + eventTimeZone);
+//		System.out.println("start month: " + eventMonth);
+//		System.out.println("start day: " + eventDay);
+//		System.out.println("start time: " + eventStartTime);
+//		System.out.println("end time: " + eventEndTime);
+//		System.out.println("timezone: " + eventTimeZone);
 		return EVAL_BODY_INCLUDE;
 	}
 

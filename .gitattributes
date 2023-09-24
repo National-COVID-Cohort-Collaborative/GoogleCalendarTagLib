@@ -3,6 +3,8 @@
 /.project -text
 .settings/org.eclipse.jdt.core.prefs -text
 .settings/org.eclipse.m2e.core.prefs -text
+.settings/org.eclipse.wst.common.component -text
+.settings/org.eclipse.wst.common.project.facet.core.xml -text
 .settings/org.maven.ide.eclipse.prefs -text
 /pom.xml -text
 src/main/java/org/cd2h/GoogleCalendarTagLib/Calendr.java -text
